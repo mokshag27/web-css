@@ -1,0 +1,16 @@
+h4 {
+    color: blueviolet;
+    background-color: darkgrey;
+}
+/* class is started using a dot(.) */
+.text-warning{
+    color: gold;
+}
+/* id selecter */
+/* id ko hash se select krte hai */
+/* id ki priority sabsde upar fir class then para and all */
+#foo{
+    font-size: 40px;
+    background-color: brown;
+    color: burlywood;
+}
