@@ -1,0 +1,15 @@
+p{
+    color: coral ;
+    /* !important agar yehi colour chahiye sabme toh important use krna  */
+}
+.border-primary{
+    /* below is for changing colour of text  */
+    color: #221f1f;
+    /* color: #4d48de;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua; */
+    /* mostly sirf border shorthand property hi use krenge aise alag alag nahi denge */
+    border: 10px solid aquamarine;
+    border-radius:10px;
+}
