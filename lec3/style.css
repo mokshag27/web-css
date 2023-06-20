@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ml{
+    margin-left: 20px;
+}
+.border-warning{
+    border: 2px solid cornflowerblue;
+    /* border-bottom-right-radius: 20px; */
+}
+.pr{
+    padding-right: 20px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* all these can be written together using , */
+ /* .class-1,.class-2,#div-3{
+    color: cadetblue;
+}  */
+/* below can be used to give colour to only class 1 also called as decendent selector bcoz class 1 ke andar jitne bhi p honge sab lega and sabko colour dega  */
+/* .class-1 p{
+    color: blueviolet;
+    border-radius: 10%;
+} */
+/* Child Selector >> immediate child chahiye sab nai*/
+/* .class-1 > p{
+    color: brown;
+    border: 2px solid salmon;
+    
+} */
+/* .class-1 > .inner-div{
+    border: 2px solid crimson;
+    
+} */
+/* Adjacent Sibling selector +*/
+#Sibling + p{
+    color: coral;
+}
+/* General Sibling selector */
+#Sibling ~ p{
+    color: crimson;
+}
+/* rem will do 1.6 * 30 and root element is html not body  */
+html{
+    font-size: 30px;
+}
+/* vh stands for viewport height 
+   vw stands for viewport width*/
+.vh-full{
+    border: 2px solid cornflowerblue;
+    /* this will make  */
+    height: 100vh;
+    width: 100vw;
+}

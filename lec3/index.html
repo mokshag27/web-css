@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margins borders and padding</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h3>Margins borders and padding</h3>
+    <hr />
+    <div class="ml border-warning pr">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+      perferendis soluta distinctio modi sit.
+    </div>
+    <hr />
+    <h2>Selectors</h2>
+    <div class="class-1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quas
+        magni officia nesciunt fugiat.
+      </p>
+      <div class="inner-div">
+        <!-- agar class 1 diya idhr b toh it will take this also in child selector -->
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+    <br />
+    <div class="class-2">
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <br />
+    <div id="div-3">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium,
+        mollitia.
+      </p>
+    </div>
+    <br />
+    <div >
+        <div id="Sibling">
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur.
+        </p>
+    </div>
+    <hr>
+    <h4>Units in CSS</h4>
+    <div style="height: 400px; border: 2px solid cadetblue;font-size: 18px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt ab nostrum aliquid necessitatibus quod dicta at animi voluptatibus magni!
+        <div style="border: 2px solid maroon;height: 20%;line-height: 1.6rem;">
+            <!--in typographical property it will take the font size of parent and multiply with 1.6 eg here 1.6*18 and in  cases where font size khud ka hai toh khud ka size into 1.6  and this is for em -->
+            <!-- and in rem it go to root element that is html ke pass jayega and it is specified in css file -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, atque?
+        </div>
+
+    </div>
+    <div class="vh-full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut iure suscipit neque similique, cumque quaerat voluptatem exercitationem reprehenderit veritatis mollitia!</div>
+  </body>
+</html>
