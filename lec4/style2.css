@@ -1,0 +1,8 @@
+.bg-prop{
+    height: 700px;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* cover tries to take full area and cuts the image or zooms it in while contain tries to just fit in anmd jab ho jaye toh it stops   */
+}

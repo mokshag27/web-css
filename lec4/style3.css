@@ -1,0 +1,9 @@
+#google{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    /* agar inline block diya toh proper margin padding ko jagah milegi nhi toh nhi milegi jagah */
+    display: inline-block;
+    text-align: center;
+}
