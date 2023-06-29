@@ -1,0 +1,31 @@
+/* reset styling start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* reset ends */
+body{
+    background-color: #457b9d;
+}
+
+/* navbar section starts  */
+/* bringing li items in one line */
+.navbar{
+    padding: 10px 10px;
+    background-color:#f1faee;
+    position: sticky;
+    top:0px;
+    
+}
+.navbar li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+/* removing underline and changing color */
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+/* navbar section ends */
