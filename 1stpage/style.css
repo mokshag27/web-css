@@ -5,14 +5,15 @@
 }
 /* reset ends */
 body{
-    background-color: #457b9d;
+    background-color: #f4acb7;
+    color: black;
 }
 
 /* navbar section starts  */
 /* bringing li items in one line */
 .navbar{
     padding: 10px 10px;
-    background-color:#f1faee;
+    background-color:#ffe5d9;
     position: sticky;
     top:0px;
     
@@ -29,3 +30,27 @@ body{
     color: black;
 }
 /* navbar section ends */
+.left,.right{
+    display: inline-block;
+    width:50%;
+}
+.left{
+    vertical-align: top;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+}
+.main{
+    margin: 10px 50px;
+    background-color: #ffcad4;
+    padding: 30px;
+    border-radius: 5px;
+}
+h1{
+    
+    
+    margin-left: 50px;
+}
