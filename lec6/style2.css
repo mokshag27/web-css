@@ -1,0 +1,19 @@
+.box{
+    background-color: blueviolet;
+    color: bisque;
+    height: 100px;
+    margin: 20px;
+    width: 100px;
+    flex-shrink: 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 800px;
+    width: 1000px;
+    border: 2px solid black;
+    justify-content:flex-end;
+    justify-content: center;
+    /* stretch work krwana hai to comment width in box otherwise wo width consider krega  */
+    align-items: stretch;
+}
