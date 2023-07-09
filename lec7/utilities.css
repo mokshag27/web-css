@@ -14,3 +14,76 @@
     justify-content: center;
     align-items: center;
 }
+.education{
+    flex-direction: column;
+ 
+}
+.technical{
+    
+    flex-direction: column;
+
+}
+#cgpa{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+#hsc{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+#ssc{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+   
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    
+}
+.list li{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #838485;
+    padding: 5px;
+    border-radius: 5px;
+}
+.co-act{
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+.left,.right{
+    flex-basis: 50%;
+}
+.main{
+    display: flex;
+}
+.right project h2{
+    margin:5px;
+}
+
+.project dt{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 5px;
+}
+.project dd{
+    margin-left: 20px;
+    line-height: 1.4rem;
+}
+.left{
+    margin: 5px;
+}
