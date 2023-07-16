@@ -9,3 +9,27 @@ body{
     padding: 20px;
     
 }
+@media screen and (max-width:768px){
+    .mid,.main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #objective{
+        flex-basis: 60%;
+
+    }
+    .mid{
+        flex-direction: row;
+    }
+    
+    
+}
