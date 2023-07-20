@@ -19,6 +19,8 @@
   </head>
   <body>
     <div class="hero">
+      <!-- put images in one folder -->
+      <!-- remove margin from navbar since it is giving white space at top -->
       <nav class="navbar flex">
         <h1>
           <span class="text-success">
@@ -43,11 +45,13 @@
       </div>
     </div>
     <div class="job">
+    <!-- rather than jobs class give header class since you have used everywhere -->
       <div id="jobs">
         <h1>Get A Job</h1>
         <p style="color: grey;">Over 5000 active jobs</p>
       </div>
       <div class="job-section d-flex">
+        <!-- every div here can be flex and column so we can center them accordingly -->
         <div>
             <i class="fa-solid fa-tv" id="i-icon"></i>
           <h4>Post a job</h4>
@@ -92,6 +96,7 @@
         <p style="color: grey;">Over 5000 active jobs</p>
         </div>
         <div class="common d-flex">
+          <!-- this content is in center in pdf, no padding is provided by you -->
             <div class="left com-color">
                 <h4>Moksha Gawada</h4>
                 <p style="color: grey;">CEO,Co-Founder</p>
@@ -181,10 +186,12 @@
         </div>
         <div class="d-flex">
             <div class="con-left d-flex">
+              <!-- here flex is not required, you have used flex for img parents which is not reuired -->
                 <img src="job.jpg" alt="">
 
             </div>
             <div class="con-right d-flex">
+              <!-- here the structure is not proper -->
                 <form action="">
                     <div class="sub d-flex">
                         <label for="firstname">Firstname:</label>
