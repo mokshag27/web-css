@@ -36,3 +36,61 @@
    flex-direction: column;
    height: 100%;
 }
+#jobs{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.images{
+    /* height: 150px; */
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.images img{
+    height: 150px;
+   margin: 5px;
+    width: 300px;
+    
+}
+.t-parent{
+    justify-content: center;
+}
+.teams{
+    align-items: center;
+    flex-direction: column;
+
+}
+.teams img{
+    height: 300px;
+    width: 400px;
+    border-radius: 60%;
+    margin: 20px;
+    
+}
+.con-left,.con-right{
+    flex-basis: 50%;
+}
+.sub{
+    flex-direction: column;
+    margin: 35px;
+}
+.con-right{
+    background-color: lightgray;
+}
+.text-align{
+    padding: 15px;
+    text-align: center;
+}
+.bg{
+    background-color: rgba(57, 57, 57, 0.995);
+    color: white;
+}
+.img-gap>a>i{
+    margin: 2rem 0.5rem 2rem 0.5rem;
+}
+.d-row{
+    flex-direction: row;
+}
+.main{
+    margin-bottom: 10px;
+}
