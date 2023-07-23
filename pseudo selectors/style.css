@@ -1,0 +1,37 @@
+/* pseudo classes are written with : */
+/* PSEUDO ELEMENTS ARE WRITTEN WITH :: */
+a:link{
+    color: black;
+}
+a:visited{
+    color: pink;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: aquamarine;
+}
+button{
+    padding: 10px;
+}
+button:hover{
+    color: blueviolet;
+}
+/* elements  starts */
+.heading::before{
+    content: 'eee';
+}
+form div{
+    margin: 5px;
+}
+.required label::after{
+    content: '*';
+    color: red;
+}
+.list li:nth-child(2n){
+    color: blueviolet;
+}
+p:nth-child(even){
+    color: blueviolet;
+}

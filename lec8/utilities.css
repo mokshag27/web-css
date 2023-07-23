@@ -1,5 +1,13 @@
 .d-flex{
     display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .text-success{
     color: #28a745;
@@ -19,6 +27,12 @@
     border-radius:5px;
     text-decoration: none;
     padding: 10px;
+
+}
+.btn:hover{
+    /* opacity: 0.9; */
+    color: rgb(162, 216, 112);
+    background-color: aquamarine;
 
 }
 #i-icon {
@@ -44,6 +58,32 @@
 .com-color{
     background-color: lightgray;
 }
+.section{
+    margin: 10px;
+}
+.section > i {
+    padding: 10px;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: #28a754;
+}
+
+.section > p {
+    text-align: center;
+}
+
+.section > h4 {
+    margin: 15px;
+    font-size: 16px;
+}
+.images img:hover{
+    opacity: 0.8;
+}
+ul li:hover{
+    border-bottom: 2px solid #28A745;
+}
+
+
 
 
 
